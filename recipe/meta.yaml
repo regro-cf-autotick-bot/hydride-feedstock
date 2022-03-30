@@ -1,6 +1,6 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set number = "0" %}
-{% set sha256 = "947a9e0924fe1d6b22d09a34f4d3077b88aebd144a74f4962a04db882916924d" %}
+{% set sha256 = "0a14a1d5849fd83125b880a8ad050888c600015988cde1ac58279e8b1862ac09" %}
 
 package:
   name: hydride
