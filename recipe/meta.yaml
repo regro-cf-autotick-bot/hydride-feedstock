@@ -23,6 +23,7 @@ requirements:
     - numpy                                  # [build_platform != target_platform]
     - biotite                                # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
