@@ -1,6 +1,6 @@
-{% set version = "1.1.2" %}
+{% set version = "1.2.0" %}
 {% set number = "0" %}
-{% set sha256 = "25e0aae74695c71a668da4e92213139d43c381cb824d5c3d13442327e147e48c" %}
+{% set sha256 = "945ec7c734665586ed577e63537b4a83646e446034f2e3fcd747f7f9b1d9d424" %}
 
 package:
   name: hydride
@@ -23,6 +23,7 @@ requirements:
     - numpy                                  # [build_platform != target_platform]
     - biotite                                # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
